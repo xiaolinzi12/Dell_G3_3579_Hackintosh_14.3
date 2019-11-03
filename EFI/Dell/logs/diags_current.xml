@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <SupportAssistPrebootDiagnosticLog>
+    <Schema>1.0.0</Schema>
+    <LogNumber>59</LogNumber>
+    <LogTimeStamp>03/29/2019 17:28:01</LogTimeStamp>
+    <ePSA_Data>
+      <Result>Fail</Result>
+      <ReturnCode>BOOT_HOST_OS</ReturnCode>
+      <DevicesTested>Fan</DevicesTested>
+      <LogData>
+        <ePSALogTimeStamp>03/29/2019 17:27:57</ePSALogTimeStamp>
+        <ePSAVersion>4400.03</ePSAVersion>
+        <ErrorCode>2000:0511</ErrorCode>
+        <ValidationCode>113217</ValidationCode>
+        <ErrorMessage><![CDATA[Fan - The (Processor Fan) fan failed to respond correctly]]></ErrorMessage>
+      </LogData>
+      <MemRxHealed>FALSE</MemRxHealed>
+      <ePSAInfo><![CDATA[serviceTag=84LLKP2&errCode=0511&ValCode=113217&fru=CN05K0D2CMC008550020A00&uID=02537]]></ePSAInfo>
+      <ePSAFullVersion>4400.03</ePSAFullVersion>
+      <ePSAInvocationCount>16</ePSAInvocationCount>
+    </ePSA_Data>
+    <BIOS_Data>
+      <ErrorCategory>PRV_FAN_FAIL</ErrorCategory>
+      <ErrorMessage><![CDATA[Fan malfunction.
+]]></ErrorMessage>
+      <FRU_String><![CDATA[Previous Fan]]></FRU_String>
+      <SOS_Available>FALSE</SOS_Available>
+      <TimeOutSeconds>0</TimeOutSeconds>
+    </BIOS_Data>
+  </SupportAssistPrebootDiagnosticLog>
