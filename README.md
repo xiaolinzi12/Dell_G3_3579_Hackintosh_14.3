@@ -1,0 +1,1 @@
+# Dell_G3_3579_Hackintosh_14.3
